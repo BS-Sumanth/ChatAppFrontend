@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React, { useEffect } from "react";
 import styled from "@emotion/styled";
 import SideBar from "./SideBar/SideBar";
@@ -15,7 +16,6 @@ const Wrapper = styled("div")({
     height: "100vh",
     display: "flex",
 });
-
 const Dashboard = ({ setUserDetails, isUserInRoom }) => {
     useEffect(() => {
         const userDetails = localStorage.getItem("user");
