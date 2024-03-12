@@ -12,13 +12,14 @@ import AlertNotification from './shared/components/AlertNotification';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path='/'>
-      <Route path='login' element={<LoginPage />} />
-      <Route path='adminlogin' element={<AdminLoginPage />} />
-      <Route path='register' element={<RegisterPage />} />
-      <Route path='dashboard' element={<Dashboard />} />
-      <Route path='admindashboard' element={<AdminDashboard />} />
-      <Route path='*' element={<Navigate to="dashboard" />} />
+    //<Route path='/'>
+    <Route>
+      <Route path='/login' element={<LoginPage />} />
+      <Route path='/adminlogin' element={<AdminLoginPage />} />
+      <Route path='/register' element={<RegisterPage />} />
+      <Route path='/dashboard' element={<Dashboard />} />
+      <Route path='/admindashboard' element={<AdminDashboard />} />
+      <Route path='*' element={<Navigate to="/dashboard" />} />
     </Route>
   )
 )
