@@ -4,7 +4,7 @@ import { logout } from "./shared/utils/auth";
 const apiClient = axios.create({
     //baseURL: "http://localhost:5002/api",
     //baseURL: "https://chat-app-backend-azure.vercel.app",
-    baseURL: "https://chatappbackend-ddca.onrender.com/api",
+    baseURL: "https://chatappbackend-u393.onrender.com/api",
     timeout: 1000,
 });
 
