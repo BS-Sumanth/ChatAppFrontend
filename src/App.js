@@ -19,7 +19,7 @@ const router = createBrowserRouter(
       <Route path='/register' element={<RegisterPage />} />
       <Route path='/dashboard' element={<Dashboard />} />
       <Route path='/admindashboard' element={<AdminDashboard />} />
-      <Route path='*' element={<Navigate to="/dashboard" />} />
+      <Route path='*' element={<Navigate to="/login" />} />
     </Route>
   )
 )
