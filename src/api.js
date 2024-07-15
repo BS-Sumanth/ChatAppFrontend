@@ -5,7 +5,7 @@ const apiClient = axios.create({
     //baseURL: "http://localhost:5002/api",
     //baseURL: "https://chat-app-backend-azure.vercel.app",
     baseURL: "https://chatappbackend-u393.onrender.com/api",
-    timeout: 5000,
+    timeout: 30000,
 });
 
 apiClient.interceptors.request.use(
